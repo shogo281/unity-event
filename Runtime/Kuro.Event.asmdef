@@ -1,0 +1,16 @@
+{
+    "name": "Kuro.Event",
+    "rootNamespace": "",
+    "references": [
+        "GUID:cacb0f0e86a8a354f9567de20ed4225d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
