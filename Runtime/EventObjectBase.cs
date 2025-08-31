@@ -1,13 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using Kuro.Addressables;
 using Kuro.Common;
+using Kuro.Editor.Runtime;
 using UnityEngine;
 
 namespace Kuro.Event
 {
-    public abstract class EventObjectBase<T> : ScriptableObject
+    public abstract class EventObjectBase<T> : ScriptableObject, IAddressableSettings
     {
         private readonly List<IEventListener<T>> m_Listeners = new();
+
+        [ShowInInspector]
+        protected int ListenerCount => m_Listeners.Count;
 
         public IDisposable RegisterWithState<TState>(TState state, Action<T, TState> action)
         {

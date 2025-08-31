@@ -2,7 +2,9 @@
     "name": "Kuro.Event",
     "rootNamespace": "",
     "references": [
-        "GUID:cacb0f0e86a8a354f9567de20ed4225d"
+        "GUID:cacb0f0e86a8a354f9567de20ed4225d",
+        "GUID:c2e77352571dd664a97604c9c5b1ad36",
+        "GUID:291ce865a0b8f9b478d0b7416cf631d7"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
