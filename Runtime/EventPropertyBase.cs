@@ -1,4 +1,5 @@
 ﻿using System;
+using Kuro.Editor.Runtime;
 
 namespace Kuro.Event
 {
@@ -7,6 +8,8 @@ namespace Kuro.Event
     {
         private T m_Value;
 
+        [ReadOnlyInInspector]
+        [ShowInInspector]
         public T Value
         {
             get { return m_Value; }
